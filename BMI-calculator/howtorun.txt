@@ -1,12 +1,14 @@
 Before you start using this app, make sure you install Node.Js. To check if you already have it, type npm -v or node -v.
 
 1. Open folder's directory in code editor, or terminal. (For example : C:\PROJECT C DRIVE\BMI-calculator).
-2. Type npm i --save-dev electron (Github limit the node_modules folder, and of course you can use yarn command).
+2. Type npm i --save-dev electron
 3. Since i already included the package.json file, you can straight up type npm start in your terminal to start the app.
 4. Enjoy the app!
 
-Alternative, you can install the setup for windows. I set ASAR to False, so you can see the source code inside.
-
-In package.json, I included electron-builder to build setup.exe file for this app (for windows). For Mac and Linux, you can edit the package.json file.
+Notes:
+1. Github limit the node_modules folder, so i can't upload the folder
+2. You can use yarn command, but you need to delete package-lock.json and change it to yarn.lock (You can see yarn website for details).
+3. Alternative, you can install the setup for windows. I set ASAR to False, so you can see the source code inside. Link: 
+4. In package.json, I included electron-builder to build setup.exe file for this app (for windows). For Mac and Linux, you can edit the package.json file.
 
 -Jonathan
