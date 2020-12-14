@@ -1,16 +1,33 @@
 {
   "name": "bmi-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A BMI Calculator",
   "main": "main.js",
-  "dependencies": {
-    "electron": "^11.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^11.1.0",
+    "electron-builder": "^22.9.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Jonathan",
+  "license": "ISC",
+  "build": {
+    "appId": "com.pakkentang.bmi-calculator",
+    "productName": "BMI Calculator",
+    "win": {
+      "asar": false,
+      "target": "NSIS",
+      "icon": "image/calculator.ico"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "createDesktopShortcut": true,
+      "deleteAppDataOnUninstall": true
+    }
+  }
 }
