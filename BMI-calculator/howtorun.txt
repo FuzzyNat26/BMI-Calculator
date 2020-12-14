@@ -1,6 +1,8 @@
-Before you start using this app, make sure you install Node.Js.
-1. Open folder's directory in code editor, or powershell
-2. Type npm start
-3. Enjoy the app
+Before you start using this app, make sure you install Node.Js. To check if you already have it, type npm -v or node -v
+
+1. Open folder's directory in code editor, or terminal. (For example : C:\PROJECT C DRIVE\BMI-calculator).
+2. Type npm i --save-dev electron (Github limit the node_modules folder).
+3. Since i already included the package.json file, you can straight up type npm start in your terminal to start using.
+4. Enjoy the app!
 
 -Jonathan
