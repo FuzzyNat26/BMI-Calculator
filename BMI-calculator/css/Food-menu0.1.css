@@ -1,0 +1,201 @@
+.mediaViewInfo {
+    --web-view-name: Food Menu;
+    --web-view-id: Food-menu0.1;
+    --web-scale-on-resize: false;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Main_menu;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    background-image: url(../image/KalkulatorIMT2.png);
+    overflow: hidden;
+    --web-view-name: Food Menu;
+    --web-view-id: Food-menu0.1;
+    --web-scale-on-resize: false;
+    --web-enable-deep-linking: true
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 525px;
+    text-align: center;
+    color: #b8fffe;
+    font-style: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: #b32959;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12.5px;
+}
+
+ul a:hover {
+    background-color: lightgray;
+    color: #b32959;
+    width: 150px;
+    height: 50px;
+}
+
+.Home a {
+    background-color: white;
+    color: #b32959;
+    width: 150px;
+    height: 50px;
+}
+
+.source {
+    position: absolute;
+    right: 150px;
+}
+
+.about {
+    position: absolute;
+    right: 0%;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 82px;
+    left: 110px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+img {
+    border-radius: 100%;
+    position: absolute;
+    left: 50px;
+    top: 35px
+}
+
+#back {
+    position: absolute;
+    top: 50px;
+}
+
+#teks {
+    padding-top: 200px;
+}
+
+#first {
+    width: 250px;
+    height: 456px;
+    background: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 119px;
+    top: 159px;
+    border-radius: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12.5px;
+}
+
+#second {
+    width: 250px;
+    height: 456px;
+    background: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 384px;
+    top: 159px;
+    border-radius: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12.5px;
+}
+
+#third {
+    width: 250px;
+    height: 456px;
+    background: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 649px;
+    top: 159px;
+    border-radius: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12.5px;
+}
+
+#fourth {
+    width: 250px;
+    height: 456px;
+    background: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 914px;
+    top: 159px;
+    border-radius: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12.5px;
+}
+
+.next {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.next:hover {
+    color: cadetblue;
+}

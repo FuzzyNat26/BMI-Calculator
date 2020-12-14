@@ -1,0 +1,440 @@
+.mediaViewInfo {
+    --web-view-name: Kalkulator IMT;
+    --web-view-id: Main_menu;
+    --web-scale-on-resize: false;
+    --web-enable-deep-linking: true;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --web-view-ids: Main_menu;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    background-image: url(../image/KalkulatorIMT.jpeg);
+    overflow: hidden;
+    --web-view-name: Main menu;
+    --web-view-id: Main_menu;
+    --web-scale-on-resize: false;
+    --web-enable-deep-linking: true
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#KalkulatorIMT_1 {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 525px;
+    text-align: center;
+    color: #b8fffe;
+    font-style: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: #b32959;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12.5px;
+}
+
+ul a:hover {
+    background-color: lightgray;
+    color: #b32959;
+    width: 150px;
+    height: 50px;
+}
+
+.Home a {
+    background-color: white;
+    color: #b32959;
+    width: 150px;
+    height: 50px;
+}
+
+.source {
+    position: absolute;
+    right: 150px;
+}
+
+.about {
+    position: absolute;
+    right: 0%;
+}
+
+#Name {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 391px;
+    height: 67px;
+    border-radius: 34px;
+    left: 136px;
+    top: 144px;
+    border-width: 3px;
+    border-color: rgba(201, 26, 101, 1);
+    overflow: visible;
+}
+
+.Gender {
+    position: absolute;
+    top: 223px;
+    left: 136px;
+    margin: 10px 0px;
+}
+
+.Gender input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+}
+
+.Gender label {
+    display: inline-block;
+    width: 193px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    color: rgba(199, 23, 98, 1);
+    padding-top: 12.5px;
+    font-family: sans-serif, Arial;
+    font-size: 20px;
+    border: none;
+    border-radius: 34px;
+}
+
+.Gender label:hover {
+    background-color: lightgray;
+    color: #b32959;
+}
+
+.Gender input[type="radio"]:checked+label {
+    background-color: rgba(199, 23, 98, 1);
+    color: white;
+}
+
+#Height {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 391px;
+    height: 67px;
+    left: 136px;
+    top: 301px;
+    border-radius: 34px;
+    border-width: 3px;
+    border-color: rgba(201, 26, 101, 1);
+    overflow: visible;
+}
+
+#Weight {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 391px;
+    height: 67px;
+    left: 136px;
+    top: 388px;
+    border-radius: 34px;
+    border-width: 3px;
+    border-color: rgba(201, 26, 101, 1);
+    overflow: visible;
+}
+
+.CALCULATE {
+    position: absolute;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 391px;
+    height: 67px;
+    left: 136px;
+    top: 510px;
+    overflow: visible;
+    border-radius: 34px;
+    background-color: rgba(201, 26, 101, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.CALCULATE:hover {
+    background-color: lightgray;
+    color: #b32959;
+}
+
+.Food {
+    position: absolute;
+    top: 488px;
+    left: 739px;
+    width: 220px;
+    height: 67px;
+    overflow: visible;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 34px;
+    background-color: rgba(201, 26, 101, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Food:hover {
+    background-color: lightgray;
+    color: #b32959;
+}
+
+.workout {
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 220px;
+    height: 67px;
+    left: 969px;
+    top: 488px;
+    overflow: visible;
+    border-radius: 34px;
+    background-color: rgba(201, 26, 101, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.workout:hover {
+    background-color: lightgray;
+    color: #b32959;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 450px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    left: 739px;
+    top: 160px;
+    border: none;
+    border-width: 0;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(201, 26, 101, 1);
+    color: white;
+    border: none;
+    text-align: middle;
+    height: 35px;
+    border: none;
+    width: 450px;
+}
+
+#del {
+    width: 50px;
+    text-align: center;
+}
+
+#del1 {
+    width: 50px;
+    text-align: center;
+}
+
+#del:hover {
+    background-color: lightgray;
+}
+
+#bmi {
+    width: 100px;
+    text-align: center;
+}
+
+#date {
+    width: 180px;
+}
+
+#name {
+    width: 220px;
+}
+
+.delete {
+    text-align: center;
+    width: 50px;
+    text-decoration: none
+}
+
+tbody {
+    background-color: white;
+    position: absolute;
+    height: 250px;
+    width: 450px;
+    text-align: justify;
+    overflow-y: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.trans {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 720px;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.alert-info {
+    position: absolute;
+    top: 310px;
+    left: 480px;
+    width: 320px;
+    height: 108px;
+    padding-top: 28px;
+    padding-left: 120px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-image: url(../image/check.jpg);
+    z-index: 2;
+}
+
+.alert-danger {
+    position: absolute;
+    top: 310px;
+    left: 480px;
+    width: 320px;
+    height: 108px;
+    padding-top: 28px;
+    padding-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-image: url(../image/removed.jpg);
+    z-index: 2;
+}
+
+.alert-error {
+    position: absolute;
+    top: 310px;
+    left: 480px;
+    width: 320px;
+    height: 108px;
+    padding-top: 28px;
+    padding-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-image: url(../image/error.jpg);
+    z-index: 2;
+}
+
+.alert-validation {
+    position: absolute;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: red;
+    left: 148px;
+    top: 465px;
+    z-index: 2;
+}
+
+#alert-first {
+    background-image: url(../image/landing.jpeg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+    font-size: 25px;
+    z-index: 2;
+    transition: opacity 1s;
+}
+
+#alert-first.fade {
+    opacity: 0;
+}
+
+#alert-second {
+    background-image: url(../image/landing2.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+    font-size: 25px;
+    z-index: 2;
+    transition: opacity 1s;
+}
+
+#alert-second.fade {
+    opacity: 0;
+}
+
+#alert-third {
+    background-image: url(../image/landing3.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+    font-size: 25px;
+    z-index: 2;
+    transition: opacity 1s;
+}
+
+#alert-third.fade {
+    opacity: 0;
+}

@@ -1,0 +1,5 @@
+1. Open folder's directory in code editor, or powershell
+2. Type npm start
+3. Enjoy the app
+
+-Jonathan
