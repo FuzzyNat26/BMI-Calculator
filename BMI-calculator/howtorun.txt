@@ -1,3 +1,4 @@
+Before you start using this app, make sure you install Node.Js.
 1. Open folder's directory in code editor, or powershell
 2. Type npm start
 3. Enjoy the app
