@@ -13,3 +13,5 @@ Team member:
 - Leo Francisco (2031014)
 - Rahel (2031040)
 - Tasya Chandra (2031008)
+
+If want to run the app, make sure to read the howtorun.txt
