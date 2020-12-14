@@ -348,6 +348,12 @@ class UI {
         if (localStorage.getItem('datas') === null) {
             UI.showAlertID("2");
             UI.showAlertID("1");
+            const datas = Store.getDatas();
+
+            datas.push();
+
+            localStorage.setItem('datas', JSON.stringify(datas));
+            
         } else {
             var array = JSON.parse(localStorage.getItem('datas'));
             var index = array.length;
