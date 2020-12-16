@@ -8,6 +8,6 @@ Notes:
 1. Github limit the node_modules folder, so i can't upload the folder
 2. You can use yarn command, but you need to delete package-lock.json and change it to yarn.lock (You can see yarn website for details).
 3. Alternative, you can install the setup for windows. I set ASAR to False, so you can see the source code inside. Link: 
-4. In package.json, I included electron-builder settings to build setup.exe file for this app (for windows). For Mac and Linux, you can edit the package.json file.
+4. In package.json, I included electron-builder settings to build setup.exe file for windows. For Mac and Linux, you can edit the package.json file. (And of course, you need to download electron-builder inside the folder).
 
 -Jonathan
