@@ -14,4 +14,4 @@ Team member:
 - Rahel (2031040)
 - Tasya Chandra (2031008)
 
-If want to run the app, make sure to read the howtorun.txt
+If want to run the app, make sure to read the howtorun.txt (inside BMI Calculator)
