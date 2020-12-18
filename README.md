@@ -1,6 +1,6 @@
 # BMI-Calculator
 
-Course's Name : Teknik Pemrograman
+Course's Name : Teknik Pemrograman - 1SIMA
 
 Lecturer's Name : Fredian Simanjuntak, S. Kom.
 
