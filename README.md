@@ -4,6 +4,7 @@ Course's Name : Teknik Pemrograman
 
 Lecturer's Name : Fredian Simanjuntak, S. Kom.
 
+Year : 2020/2021
 
 Project's Title : BMI Calculator
 
