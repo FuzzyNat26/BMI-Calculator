@@ -7,7 +7,7 @@ Before you start using this app, make sure you install Node.Js. To check if you 
 Notes:
 1. Github limit the node_modules folder, so i can't upload the folder
 2. You can use yarn command, but you need to delete package-lock.json and change it to yarn.lock (You can see yarn website for details).
-3. Alternative, you can install the setup for windows. I set ASAR to False, so you can see the source code inside. Link: 
+3. Alternative, you can install the setup for windows. I set ASAR to False, so you can see the source code inside. Link: https://drive.google.com/file/d/1snfeEzO4oe7-ZI1G0JYfIONqlX71YIoD/view?usp=sharing
 4. In package.json, I included electron-builder settings to build setup.exe file for windows. For Mac and Linux, you can edit the package.json file. (And of course, you need to download electron-builder inside the folder).
 
 -Jonathan
